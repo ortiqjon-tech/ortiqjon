@@ -9,7 +9,7 @@ function createBot() {
     port: 53628,
     username: 'Ultimate',
     auth: 'offline',
-    version: 1.21.4
+    version: '1.21.4'
   });
 
   bot.loadPlugin(pathfinder);
