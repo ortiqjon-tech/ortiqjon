@@ -5,11 +5,11 @@ const autoEat = require('mineflayer-auto-eat');
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'ZVERO_007.aternos.me',
+    host: 'ZVEROmc.aternos.me',
     port: 53628,
     username: 'Ultimate',
     auth: 'offline',
-    version: false
+    version: 1.21.4
   });
 
   bot.loadPlugin(pathfinder);
